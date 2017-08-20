@@ -12,6 +12,8 @@
 		8E40DA211F4A0AC500BC91CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E40DA1F1F4A0AC500BC91CE /* Main.storyboard */; };
 		8E40DA231F4A0AC500BC91CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E40DA221F4A0AC500BC91CE /* Assets.xcassets */; };
 		8E40DA261F4A0AC500BC91CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E40DA241F4A0AC500BC91CE /* LaunchScreen.storyboard */; };
+		8E40DA2E1F4A10CA00BC91CE /* Annotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E40DA2D1F4A10CA00BC91CE /* Annotation.swift */; };
+		8E40DA301F4A17A600BC91CE /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E40DA2F1F4A17A600BC91CE /* AnnotationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8E40DA221F4A0AC500BC91CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E40DA251F4A0AC500BC91CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E40DA271F4A0AC500BC91CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E40DA2D1F4A10CA00BC91CE /* Annotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotation.swift; sourceTree = "<group>"; };
+		8E40DA2F1F4A17A600BC91CE /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				8E40DA221F4A0AC500BC91CE /* Assets.xcassets */,
 				8E40DA241F4A0AC500BC91CE /* LaunchScreen.storyboard */,
 				8E40DA271F4A0AC500BC91CE /* Info.plist */,
+				8E40DA2D1F4A10CA00BC91CE /* Annotation.swift */,
+				8E40DA2F1F4A17A600BC91CE /* AnnotationView.swift */,
 			);
 			path = "Mapkit-Methods";
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E40DA1E1F4A0AC500BC91CE /* ViewController.swift in Sources */,
+				8E40DA301F4A17A600BC91CE /* AnnotationView.swift in Sources */,
+				8E40DA2E1F4A10CA00BC91CE /* Annotation.swift in Sources */,
 				8E40DA1C1F4A0AC500BC91CE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +283,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LR4SP9C264;
 				INFOPLIST_FILE = "Mapkit-Methods/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.artisanbranding.com.Mapkit-Methods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = LR4SP9C264;
 				INFOPLIST_FILE = "Mapkit-Methods/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.artisanbranding.com.Mapkit-Methods";
 				PRODUCT_NAME = "$(TARGET_NAME)";
